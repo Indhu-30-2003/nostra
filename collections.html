@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Collections</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <!--offer-->
+    <div class="offerpopup" id="offerpop">
+        <h3>Sign Up and GET 20% OFF for your first Order </h3>
+        <p id="parax">X</p>
+    </div>
+    <!--navbar-->
+    <nav class="navbar">
+        <h1>Nostra</h1>
+        <div class="links">
+            <a href="index.html">Home</a>
+            <a href="index.html">New Arrival</a>
+            <a href="index.html">Most Wanted</a>
+            <a href="collections.html">Collections</a>
+            <a href="contact.html">Contact Us</a>
+        </div>
+        <i class="fa-solid fa-bars" style="color: #0f0f10;" id="menu"></i>
+
+    </nav>
+
+    <!--sidebar-->
+    <section id="sidebar">
+        <div class="sidebarcontainer">
+            <div class="links1">
+                <a href="index.html">Home</a>
+                <a href="index.html">New Arrival</a>
+                <a href="index.html">Most Wanted</a>
+                <a href="collections.html">Collections</a>
+                <a href="contact.html">Contact Us</a>
+            </div>
+            <div class="closesidebar">
+                <p class="closeside" id="closeside">X</p>
+            </div>
+        </div>
+
+    </section>
+
+    <!--collections-->
+    <div class="collections_container">
+
+        <div class="filter_section">
+            <h3>Occasion</h3>
+            <div class="filter_section_input">
+                <input type="checkbox" name="check" value="summer" class="checkbox"> Summer <br>
+                <input type="checkbox" name="check" value="party" class="checkbox"> Party <br>
+                <input type="checkbox" name="check" value="beach" class="checkbox"> Beach
+
+            </div>
+            <h3>Filters</h3>
+            <div class="filter_section_input">
+                <input type="checkbox" name="check" value="red" class="checkbox"> Red <br>
+                <input type="checkbox" name="check" value="blue" class="checkbox"> Blue <br>
+                <input type="checkbox" name="check" value="white" class="checkbox"> White <br>
+                <input type="checkbox" name="check" value="green" class="checkbox"> Green
+            </div>
+            <h3>Arrivals</h3>
+            <div class="filter_section_input">
+                <input type="checkbox" name="check" value="new" class="checkbox"> New <br>
+                <input type="checkbox" name="check" value="old" class="checkbox"> Old
+
+            </div>
+            <hr class="vertical">
+        </div>
+        <div class="product-section">
+            <form class="navbar-search">
+                <input type="search" placeholder="search here" id="searchInput">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </form>
+            <h1 id="result"></h1>
+            <div class="Products" id="product_container">
+                <div class="product1" id="img_container" data-filter="summer">
+                    <img src="image/p1.jpg">
+                    <h1>Floral Summer Shirt</h1>
+                    <p>$445</p>
+                </div>
+                <div class="product1" id="img_container" data-filter="green">
+                    <img src="image/p2.jpg">
+                    <h1>Summer Green</h1>
+                    <p>$500</p>
+                </div>
+                <div class="product1" id="img_container" data-filter="floral">
+                    <img src="image/p3.jpg">
+                    <h1>Party Floral shirt</h1>
+                    <p>$425</p>
+                </div>
+                <div class="product1" id="img_container" data-filter="summer">
+                    <img src="image/p4.jpg">
+                    <h1>Floral Summer Shirt</h1>
+                    <p>$500</p>
+                </div>
+                <div class="product1" id="img_container" data-filter="beach">
+                    <img src="image/p5.jpg">
+                    <h1>Beach Shirt</h1>
+                    <p>$300</p>
+                </div>
+                <div class="product1" id="img_container" data-filter="party">
+                    <img src="image/p6.jpg">
+                    <h1>Shirt Party red</h1>
+                    <p>$400</p>
+                </div>
+                <div class="product1" id="img_container" data-filter="party">
+                    <img src="image/p7.jpg">
+                    <h1> Party Floral Shirt</h1>
+                    <p>$500</p>
+                </div>
+                <div class="product1" id="img_container" data-filter="red">
+                    <img src="image/p8.jpg">
+                    <h1>Shirt party red </h1>
+                    <p>$489</p>
+                </div>
+                <div class="product1" id="img_container" data-filter="red">
+                    <img src="image/p9.jpg">
+                    <h1>Shirt party red </h1>
+                    <p>$489</p>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+    <!--news-->
+    <div class="news">
+        <h2>Join our News Letter</h2>
+        <p style="text-align: center;">Signup for our email newspaper to get exclusive discounts, updates, and more</p>
+        <div style="margin-top: 10px;">
+            <input class="search">
+        </div>
+        <div>
+            <button> Subscribe <i class="fa-solid fa-arrow-right"></i> </button>
+        </div>
+    </div>
+
+    </div>
+    <!--footer-->
+    <div class="footer">
+        <div class="footer-container">
+            <div class="footer-box-1">
+                <h2 class="headingText">Nostra</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas sit nam sapiente veniam quod vel
+                    omnis eos voluptatibus illum architecto, alias cum ratione veritatis recusandae temporibus ipsa sint
+                    quia hic.</p>
+                <div class="footer-icon-container">
+                    <i class="icon fa-brands fa-instagram" style="color: #ffffff;"></i>
+                    <i class="icon fa-brands fa-twitter" style="color: #ffffff;"></i>
+                    <i class="icon fa-brands fa-facebook" style="color: #ffffff;"></i>
+                </div>
+            </div>
+
+
+
+        </div>
+
+        <p class="subtitle">@ 2024 Nostra.com</p>
+    </div>
+
+    <script  src="collection.js"></script>
+</body>
+
+</html>
